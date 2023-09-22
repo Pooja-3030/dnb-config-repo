@@ -26,5 +26,10 @@ eureka:
         defaultZone: http://localhost:8761/eureka/ 
 customProperty:
   test: pooja
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
        
       
