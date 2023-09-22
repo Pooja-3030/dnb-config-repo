@@ -25,7 +25,7 @@ eureka:
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/ 
 customProperty:
-  test: pekamwar
+  test: pekamwarpooja
 management:
   endpoints:
     web:
