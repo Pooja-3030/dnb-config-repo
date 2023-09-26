@@ -12,6 +12,14 @@ spring:
           uri: lb://CUSTOMER-SERVICE
           predicates:
             - Path=/customer/** 
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user/** 
+        - id: PROFILE-SERVICE
+          uri: lb://PROFILE-SERVICE
+          predicates:
+            - Path=/profile/** 
 server:
    port: 9191
    error:
