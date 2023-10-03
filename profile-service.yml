@@ -31,6 +31,4 @@ management:
       exposure:
         include: "*"
 api:
-  user: http://USER-SERVICE/user
-api:
   auth: http://AUTH-SERVICE/auth
