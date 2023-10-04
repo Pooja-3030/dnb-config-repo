@@ -32,4 +32,4 @@ management:
         include: "*"
 api:
   auth: http://AUTH-SERVICE/api/auth
-  auth1: http://AUTH-SERVICE/api/authuser
+  auth1: http://AUTH-SERVICE/api/auth/user
