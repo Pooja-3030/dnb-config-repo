@@ -23,8 +23,11 @@ spring:
         - id: PROFILE-SERVICE
           uri: lb://PROFILE-SERVICE
           predicates:
-            - Path=/profile/**
-       
+            - Path=/api/profile/**
+        - id: EDUCATION-SERVICE
+          uri: lb://EDUCATION-SERVICE
+          predicates:
+            - Path=/api/education/**       
 jwt:
   secret: mySecretKey
   expireMs: 120000
