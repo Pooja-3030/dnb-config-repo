@@ -31,7 +31,7 @@ spring:
         - id: EXPERIENCE-SERVICE
           uri: lb://EXPERIENCE-SERVICE
           predicates:
-            - Path=/api/experinece/**
+            - Path=/api/experience/**
 jwt:
   secret: mySecretKey
   expireMs: 12000000
